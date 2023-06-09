@@ -2,6 +2,7 @@ version: "3.0"
 
 services:
   assignment:
+    image: ${DOCKER_USR}/assignment
     build: .
     ports:
       - "80:80"
