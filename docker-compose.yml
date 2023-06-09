@@ -4,4 +4,4 @@ services:
   assignment:
     build: .
     ports:
-      - "80:8000"
+      - "80:80"
