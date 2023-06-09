@@ -3,6 +3,5 @@ version: "3.0"
 services:
   assignment:
     build: .
-    image: sayyyho/assignment:latest
     ports:
       - "80:80"
